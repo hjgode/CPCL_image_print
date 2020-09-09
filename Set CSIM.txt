@@ -1,0 +1,11 @@
+<>{QUIT}
+QUIT
+{QUIT}
+run "su -p pass admin
+run "setlanguage CSim
+PT "CSim has been Set"
+PF
+PT "Rebooting..."
+PF
+FF50
+reboot
